@@ -37,8 +37,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Olena</title>
+    <meta
+      name="description"
+      content=" About Olena is front-end engeneer, based in Ukraine"
+    />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="images/logo.png" class="logo" alt="SheCodes Logo" />
+        <ul>
+          <li>
+            <a href="/index.html" title=" Olena Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/" title="About OLena">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Olena Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Olena">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="about-section container">
       <div class="row">
         <div class="col-lg-6">
@@ -51,7 +74,9 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" title="Olena Work" class="btn btn-branding"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -59,5 +84,50 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let`s work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Olena"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a href="mailto:bellousowa@gmail.com" class="email-link"
+            >bellousowa@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-4">
+          <a href="#"
+            ><i class="fa-brands fa-instagram" title="Go to Insta"></i
+          ></a>
+          <a
+            href="https://github.com/BilousovaOlena"
+            title="Go to GitHub"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/elena.bel.906"
+            title="Go to Fb"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+    <p class="text-center">
+      This website was coded by Bilousova Olena, and it is
+      <a href="https://github.com/BilousovaOlena" title="GitHub"
+        >open-sourced</a
+      >
+    </p>
   </body>
 </html>

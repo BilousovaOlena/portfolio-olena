@@ -14,7 +14,7 @@ p {
 .hero {
   background: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 .hero h2 {
   font-family: var(--second-font);
@@ -65,7 +65,7 @@ p {
   line-height: 24px;
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 .about-section-content {
   margin: 30px;
@@ -87,7 +87,7 @@ p {
 }
 .content-container {
   text-align: center;
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 .content h3 {
   font-size: 24px;
@@ -105,7 +105,7 @@ p {
 }
 .contact-container {
   text-align: center;
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 .contact-content h3 {
   font-size: 24px;
@@ -206,5 +206,9 @@ footer .social-links a:hover {
   nav ul {
     display: block;
     margin: 0 auto;
+  }
+  .content-container img {
+    width: 300px;
+    height: 300px;
   }
 }
